@@ -3,7 +3,7 @@ package week2;
 public class JavaUtil {
 
     public static void main(String[] args) {
-        KotlinUtil.Companion.comp_hello();
+        KotlinUtil.comp_hello();
         KotlinUtil ku = new KotlinUtil();
         ku.hello();
     }
