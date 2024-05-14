@@ -12,8 +12,8 @@ public class Main {
 //        int myInt = myInteger;
 //        int[] intArray = {0, 1, 2, 3};
 //        intArray = new int[100];
-        int num1 = 5;
-        int num2 = 6;
+        // int num1 = 5;
+        // int num2 = 6;
         int[] nums = {5, 6, 7};
         System.out.println(myMax(5, 6));
         System.out.println(myMin(5, 6));
