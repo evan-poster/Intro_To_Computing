@@ -3,7 +3,7 @@
 // Ex1: reimplement max function to return the bigger one between two numbers.
 // Note: do NOT use Math.max, but do use Java's native ternary operator
 
-public class Main {
+public class Exercise1 {
 
     public static void main(String[] args) {
         System.out.println(newMax(5, 6));
