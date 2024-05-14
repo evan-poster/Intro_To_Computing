@@ -1,3 +1,5 @@
+package week1
+
 // Ex 3: reimplement Harmonic sequence ( please refer to page 65 of our textbook).
 // The number of elements of the sequence should come from the user input.
 fun main(args: Array<String>) {

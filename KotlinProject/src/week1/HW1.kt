@@ -1,4 +1,4 @@
-
+package week1
 fun main() {
     var nullableVar :String? = null
     nullableVar = "5"

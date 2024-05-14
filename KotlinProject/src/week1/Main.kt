@@ -1,4 +1,4 @@
-
+package week1
 
 fun main() {
     val name = "peter"

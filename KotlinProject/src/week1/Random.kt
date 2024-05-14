@@ -1,3 +1,5 @@
+package week1
+
 import kotlin.random.Random
 
 fun main() {

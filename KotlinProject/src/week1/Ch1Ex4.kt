@@ -1,4 +1,4 @@
-// Ex 4: reimplement a random sequence numbers ( refer to page 128 of our textbook)
+package week1// Ex 4: reimplement a random sequence numbers ( refer to page 128 of our textbook)
 
 fun main(args: Array<String>) {
     if ( args.isNotEmpty() ) {
