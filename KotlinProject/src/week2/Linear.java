@@ -16,5 +16,22 @@ public class Linear {
         }
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(result));
+        // Test getDayOfWeek()
+        for ( int i = 0; i < 7; i++ ) {
+            System.out.println(getDayOfWeek(i));
+        }
+        System.out.println(getDayOfWeek(-1));
+        System.out.println(getDayOfWeek(10));
+    }
+
+    static String getDayOfWeek(int day) {
+        return ( day == 0 ) ? "Sunday" :
+               ( day == 1 ) ? "Monday" :
+               ( day == 2 ) ? "Tuesday" :
+               ( day == 3 ) ? "Wednesday" :
+               ( day == 4 ) ? "Thursday" :
+               ( day == 5 ) ? "Friday" :
+               ( day == 6 ) ? "Saturday" :
+               "Error";
     }
 }
