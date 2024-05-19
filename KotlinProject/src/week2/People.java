@@ -3,7 +3,7 @@ package week2;
 public class People {
     private String name;
     private int age;
-    private long SSN;
+    protected long SSN;
     private String address;
 
     public String getName() { return name; }

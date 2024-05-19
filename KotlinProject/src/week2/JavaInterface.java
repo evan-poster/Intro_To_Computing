@@ -6,4 +6,3 @@ public interface JavaInterface {
     public int function1();
     public int function2();
 }
-

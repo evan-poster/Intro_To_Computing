@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Linear {
     public int i;
+    
     public static void main(String[] args) {
         int[] arr = { 3, 4, 9, 6, 1 };
         int[] result = new int[arr.length];
@@ -22,8 +23,9 @@ public class Linear {
         }
         System.out.println(getDayOfWeek(-1));
         System.out.println(getDayOfWeek(10));
-    }
 
+    }
+    
     static String getDayOfWeek(int day) {
         return ( day == 0 ) ? "Sunday" :
                ( day == 1 ) ? "Monday" :
@@ -34,4 +36,5 @@ public class Linear {
                ( day == 6 ) ? "Saturday" :
                "Error";
     }
+
 }
