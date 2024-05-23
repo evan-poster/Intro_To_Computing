@@ -1,5 +1,8 @@
 package week2
 
+import java.util.*
+import week2.JavaUtil
+
 class KotlinUtil {
 
     companion object {
@@ -20,5 +23,5 @@ class KotlinUtil {
 }
 
 fun main() {
-    JavaUtil.hello()
+    // JavaUtil.hello()
 }
