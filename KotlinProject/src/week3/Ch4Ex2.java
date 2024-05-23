@@ -1,4 +1,4 @@
-package week2;
+package week3;
 
 // Ex2: Reimplement the sorting algorithm listed on page 543 with Kotlin,
 //      and write some tests to verify your implementation.
