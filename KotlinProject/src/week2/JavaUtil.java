@@ -1,5 +1,7 @@
 package week2;
 
+import week2.KotlinUtil;
+
 public class JavaUtil {
 
     public static void main(String[] args) {

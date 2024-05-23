@@ -3,7 +3,7 @@
 //
 //      Note: compile your code on command line first, then run it via command line.
 
-fun sort(a: Array<Int>) {
+fun sortkt(a: Array<Int>) {
     val n = a.size
     // Sort items using insertion method
     for (i in 1 until n) {
@@ -17,7 +17,7 @@ fun sort(a: Array<Int>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     // Test with random numerical data
     val a = Array(10) { (Math.random() * 100).toInt() }
 
@@ -25,9 +25,8 @@ fun main(args: Array<String>) {
     println(a.joinToString())
 
     // Run the sort
-    sort(a)
+    sortkt(a)
 
     // Provide sorted array for review
     println(a.joinToString())
 }
-

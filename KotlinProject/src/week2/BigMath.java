@@ -29,6 +29,7 @@ public class BigMath {
             System.out.println("Factorial Function");
             System.out.println(factorial(number));
         }
+        scanner.close();
     }
 
     static BigInteger factorial(int n) {

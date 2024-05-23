@@ -1,7 +1,5 @@
 package week2;
 
-import jdk.jshell.execution.Util;
-
 public class Midterm {
     public static void main(String[] args) {
         MidtermUtil util = new MidtermUtil();
