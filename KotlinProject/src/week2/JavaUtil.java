@@ -1,11 +1,11 @@
 package week2;
 
+
 public class JavaUtil {
 
     public static void main(String[] args) {
-        // new week2.KotlinUtil();
         // KotlinUtil.comp_hello();
-        // KotlinUtil ku = new week2.KotlinUtil();
+        // KotlinUtil ku = new KotlinUtil();
         // ku.hello();
     }
 

@@ -2,8 +2,7 @@ package week2
 
 import java.util.*
 
-fun main(args: Array<String>) {
-    // Achievements.ask();
+fun main() {
     val dictionary: MutableMap<String, String> = TreeMap()
 
     // Adding key-value pairs to the dictionary

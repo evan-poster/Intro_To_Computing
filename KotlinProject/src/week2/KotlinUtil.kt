@@ -1,7 +1,6 @@
 package week2
 
 import java.util.*
-import week2.JavaUtil
 
 class KotlinUtil {
 
